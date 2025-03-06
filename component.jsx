@@ -1,9 +1,10 @@
 
-let MyComponent = (
+import 'CSS.css';
+  function CharacterComponent(props) {
+
+    return (
     <div>
-      <h1>Blog Title</h1>
-      <p>Here is the blog description.</p>
+        <img src ="/Resources/Necromancer.JPG" style={image-radius}></img>;
     </div>
-  );
-  
-  ReactDOM.render(MyComponent, document.getElementById("root"));
+    )
+  }
