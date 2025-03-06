@@ -4,7 +4,7 @@ import 'CSS.css';
 
     return (
     <div>
-        <img src ="/Resources/Necromancer.JPG" style={image-radius}></img>;
+        <img src ="/Resources/Necromancer.JPG" className={"image-radius"}></img>;
     </div>
     )
   }
